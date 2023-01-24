@@ -10,7 +10,7 @@ echo "CLEARBIT_API_KEY=xxxxxx" > .env
 npm run dev
 ```
 
-Runs by default at [http://localhost:8000]
+Runs by default at [http://localhost:8000](http://localhost:8000)
 
 ## Routes
 
@@ -18,8 +18,8 @@ Runs by default at [http://localhost:8000]
 
 With a single query-string `email` argument
 
-Example: [http://localhost:8000/profiles?email=rahul@superhuman.com]
+Example: [http://localhost:8000/profiles?email=rahul@superhuman.com](http://localhost:8000/profiles?email=rahul@superhuman.com)
 
 #### Fetch view counts - `GET /views`
 
-Example: [http://localhost:8000/views]
+Example: [http://localhost:8000/views](http://localhost:8000/views)

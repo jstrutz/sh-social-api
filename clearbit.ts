@@ -7,16 +7,10 @@ interface ClearbitEnv {
 interface ClearbitProfile {
   name: {
     fullName: string
-  },
-  location: string,
-  avatar: string
+  };
+  location: string;
+  avatar: string;
 }
-// interface ClearbitError {
-//   error: {
-//     message: string,
-
-//   }
-// }
 
 export function buildClearbitClient({ CLEARBIT_API_KEY }: ClearbitEnv) {
   if (!CLEARBIT_API_KEY) {
